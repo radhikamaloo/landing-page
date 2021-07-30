@@ -1,6 +1,6 @@
 # codedamn - Eventually - Stunning HTML5 Landing Page
 
-![Design for the project](./assets/desktop-design-non-fs.jpg)
+![Design for the project](desktop-design-non-fs.jpg)
 
 ## Hello developer!
 
