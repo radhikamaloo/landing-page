@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>codedamn Project</title>
+	</head>
+	<style>
+		body{
+			background-image: url(bg01.jpg) ;
+			background-size: cover;
+			background-repeat: no-repeat;
+			width:100%;
+			font-family:Roboto, sans-serif ;
+			margin-left: 25px;
+			height: 600px;
+			background-position: center;
+		}
+		.main{
+			margin-top: 22rem;
+			color:#ffffff ;
+			margin-left: 25px;
+			line-height: 25px;
+		}
+		#login input{
+			background-color: transparent;
+			border: 2px solid rgb(231, 228, 228);
+			border-radius: 5px;
+			padding: 5px;
+		}
+		#login button{
+			background-color: #1cb495;
+			border-radius: 5px;
+			padding: 7px;
+			border: none;
+			color: #ffffff;
+		}
+		footer{
+			margin-top: 24rem;
+			color: #ffffff;
+		}
+		footer p{
+			margin-left:30px
+		}
+		footer ul{
+          display: flex;
+		  text-decoration: none;
+		  list-style: none;margin: 10px;
+		}
+		footer ul li a{
+			text-decoration: none;
+			color: #ffffff;
+			margin-right: 15px;
+			
+		}
+		footer ul li a{
+			font-size: 30px;
+           line-height: 60px;
+           transition: 0.6s;
+		}
+		@media only screen and (max-width :780px){
+		.main h1, .main p{
+			display: none;
+		}
+		.main form input{
+			width: 80%;
+			margin: 10px;
+			padding: 20px;
+			margin-left:12px;
+		}
+		.main form button{
+			width: 83%;
+			margin-left: 12px;
+		}
+		footer{
+			margin-top: 28rem;
+		}	
+		}
+	</style>
+	<body>
+		<!-- start writing your code -->
+	<div class="main">
+		<h1>Eventually</h1>
+		<p>A simple template for telling the world when you will launch <br>
+			 your new thing . Brought to you by <a href="" style="color: #fff;"> HTML5 UP</a>.</p>
+		<form action="" id="login">
+			<input type="email" placeholder="Email Address">
+			<button id="btn" type="submit"  onclick="document.getElementById('text').innerHTML ='Thank You!!'">Sign Up</button>
+		</form>
+		<h5 id ="text" style="color: #1cb495; padding-left: 30px;" ></h5>
+	</div>
+
+	<footer class="contact">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <ul>
+		<li><a href="www.twitter.com" class="fa fa-twitter"></a></li>
+       <li><a href="ww.instagram.com" class="fa fa-instagram"></a></li>
+       <li><a href="www.github.com" class="fa fa-github"></a></li>
+       <li><a href="www.email.com" class="fa fa-envelope"></a></li>
+    </ul>
+	<p>@Untitled  |  Credits <a href="unsplash.com" style="color: #fff;">Unsplash + HTML5 UP</a> Created by @radhikamaloo</p>
+	</footer>
+
+
+	<script>
+        // function myFunction() {
+		// 	var button = document.getElementById("btn");
+
+		// 	var text = document.getElementById("text");
+
+		// 	if(button.checked == true)
+		// 	{
+		// 		text.style.display = "block";
+		// 	}
+		// 	else{
+		// 		text.style.display = "none";
+		// 	}
+		// }
+	</script>
+	</body>
+</html>
